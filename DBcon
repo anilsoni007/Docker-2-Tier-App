@@ -1,0 +1,7 @@
+create database awsecs;
+
+use awsecs;
+
+create table Employee (emp_id integer, first_name varchar(40), last_name varchar(40), primary_skills varchar(20), location char(10));
+
+describe Employee;
